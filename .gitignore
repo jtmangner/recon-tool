@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------
+# .gitignore: files and folders git should never track.
+# One pattern per line. A trailing / means "this folder".
+# Lines starting with # are comments.
+# ---------------------------------------------------------------
+
+# --- Project-specific (the important part) ---
+.venv/
+output/
+__pycache__/
+# data/: only the named fake sample files are committed; anything else (e.g. a real export) stays out.
+data/*
+!data/.gitkeep
+!data/bank.csv
+!data/gl.csv
+
+
+# --- General Python junk ---
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# --- Editor / OS clutter ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Claude Code personal settings (keep project settings, ignore local ones) ---
+.claude/settings.local.json
