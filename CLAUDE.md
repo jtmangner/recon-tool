@@ -21,3 +21,4 @@ and check which boxes are ticked to see where I am.
 - Money is stored as integer cents, never floats.
 - Point out best practices as they come up and explain why they matter.
 - Remind me to commit at sensible checkpoints, and to tick the box in BUILD_GUIDE.md.
+- At the end of each session, remind me to write my LEARNING_LOG.md entry myself. Don't write it for me.
