@@ -98,14 +98,14 @@ pivoting into tech. My goal is to LEARN, not just ship.
 **Create the project:**
 
 - [x] Make a folder called `recon-tool`, open it in VS Code, and open the terminal (View → Terminal)
-- [ ] Create a virtual environment: `python -m venv .venv` (Mac: `python3`)
-- [ ] Activate it — Mac: `source .venv/bin/activate` · Windows: `.venv\Scripts\activate`. You'll see `(.venv)` in the prompt.
-- [ ] Install packages: `pip install pandas pytest`
-- [ ] Save the exact versions: `pip freeze > requirements.txt`
-- [ ] Start Claude Code, switch to Learning mode, and have it scaffold the folders from the Overview plus `CLAUDE.md` and `.gitignore`
-- [ ] Check `.gitignore` contains at least `.venv/`, `__pycache__/`, and `output/`
-- [ ] Start git: `git init`, then `git add .`, then `git commit -m "Initial project structure"`
-- [ ] Create an empty repo on GitHub named `recon-tool` and run the three push commands GitHub shows you
+- [x] Create a virtual environment: `python -m venv .venv` (Mac: `python3`)
+- [x] Activate it — Mac: `source .venv/bin/activate` · Windows: `.venv\Scripts\activate`. You'll see `(.venv)` in the prompt.
+- [x] Install packages: `pip install pandas pytest`
+- [x] Save the exact versions: `pip freeze > requirements.txt`
+- [x] Start Claude Code, switch to Learning mode, and have it scaffold the folders from the Overview plus `CLAUDE.md` and `.gitignore`
+- [x] Check `.gitignore` contains at least `.venv/`, `__pycache__/`, and `output/`
+- [x] Start git: `git init`, then `git add .`, then `git commit -m "Initial project structure"`
+- [x] Create an empty repo on GitHub named `recon-tool` and run the three push commands GitHub shows you
 
 **Done when:** your GitHub page shows the folders, and `git status` says "nothing to commit."
 
