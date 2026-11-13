@@ -148,12 +148,12 @@ date,je_id,description,amount
 
 **Steps:**
 
-- [ ] Ask Claude Code to explain the plan for the script, then have it write the clean-match part
-- [ ] **You write:** the function that adds the planted exceptions (Claude can leave it as a `TODO(human)`)
-- [ ] Use a fixed random seed so the same data comes out every run
-- [ ] Run it: `python scripts/make_fake_data.py`, then open both CSVs and check that every planted exception is there
-- [ ] Write the expected results down (an "answer key") in a comment at the top of the script
-- [ ] Commit: "Add fake data generator"
+- [x] Ask Claude Code to explain the plan for the script, then have it write the clean-match part
+- [x] **You write:** the function that adds the planted exceptions (Claude can leave it as a `TODO(human)`)
+- [x] Use a fixed random seed so the same data comes out every run
+- [x] Run it: `python scripts/make_fake_data.py`, then open both CSVs and check that every planted exception is there
+- [x] Write the expected results down (an "answer key") in a comment at the top of the script
+- [x] Commit: "Add fake data generator"
 
 **Done when:** you can point to every planted exception in the CSVs and say what the tool should do with it.
 
